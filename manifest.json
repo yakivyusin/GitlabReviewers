@@ -1,4 +1,14 @@
 ﻿{
+  "content_scripts": [
+    {
+      "js": [
+        "background.js"
+      ],
+      "matches": [
+        "*://*/*/merge_requests/new*"
+      ]
+    }
+  ],
   "description": "Gitlab Reviewers Extension",
   "icons": {
     "128": "logo128.png"
