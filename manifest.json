@@ -1,12 +1,14 @@
 ﻿{
   "description": "Gitlab Reviewers Extension",
   "icons": {
+    "128": "logo128.png"
   },
   "manifest_version": 2,
   "name": "Gitlab Reviewers",
   "short_name": "GitlabReviewers",
   "browser_action": {
-    "default_title": "Gitlab Reviewers"
+    "default_title": "Gitlab Reviewers",
+    "default_icon": "logo128.png"
   },
   "permissions": [
     "storage"
